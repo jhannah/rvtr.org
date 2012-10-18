@@ -1,11 +1,22 @@
 <html>
 <head>
 <title>River Valley Trail Riders - Council Bluffs, IA OHV Park</title>
+
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
 </head>
 <body>
 
 <table>
-<tr><td> <img src="logo.jpg"></td>
+<tr><td> <img src="images/logo.jpg"></td>
 <td>
 <h1 style="margin: 0px">River Valley Trail Riders<br/>Council Bluffs, Iowa<br/> OHV Park</h1>
 </td>
@@ -39,7 +50,7 @@
 
 </td>
 </tr>
-</tablE>
+</table>
 
 
 
@@ -130,9 +141,19 @@ In years past, when the park was dry and before the 2011 flood added 15 feet of 
 
 
 
-<a href="aerial.jpg" border=0><img src="aerial.jpg" width=300></a>
-<a href="bikes.jpg" border=0><img src="bikes.jpg" width=300></a>
-<a href="quads.jpg" border=0><img src="quads.jpg" width=300></a>
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="images/aerial.jpg" />
+    </li>
+    <li>
+      <img src="images/bikes.jpg" />
+    </li>
+    <li>
+      <img src="images/quads.jpg" />
+    </li>
+  </ul>
+</div>
 
 
 

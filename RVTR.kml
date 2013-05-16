@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>RVTR</name>
+  <description><![CDATA[River Valley Trail Riders
+Council Bluffs, IA OHV Park
+http://rvtr.org
+]]></description>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7399FF99</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <LineStyle>
+      <color>730000FF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73CCFFFF</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>7399FFFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style8">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7399FF99</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7399FF99</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Placemark>
+    <name>Park entrance</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-95.917587,41.209621,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parking lot</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.915337,41.209103,0.000000
+            -95.914062,41.208412,0.000000
+            -95.913452,41.208599,0.000000
+            -95.913170,41.209026,0.000000
+            -95.914566,41.209805,0.000000
+            -95.915337,41.209103,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Godfather&#39;s Pizza</name>
+    <description><![CDATA[<div dir="ltr">Meetings are held here.</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-95.892982,41.262203,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Northern fence</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -95.903465,41.225739,0.000000
+        -95.912018,41.225758,0.000000
+        -95.912010,41.225758,0.000000
+        -95.911995,41.225758,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Begginer sand</name>
+    <description><![CDATA[<div dir="ltr">Big wide open dunes area to practice your sand skills.</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.913651,41.220890,0.000000
+            -95.912025,41.223026,0.000000
+            -95.911140,41.222763,0.000000
+            -95.912872,41.220673,0.000000
+            -95.913651,41.220890,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Sandy</name>
+    <description><![CDATA[<div dir="ltr">If you like sand, great! If you don't you might want to stay away from the river. :)</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -95.909119,41.225708,0.000000
+        -95.913368,41.219147,0.000000
+        -95.916183,41.217144,0.000000
+        -95.919868,41.214424,0.000000
+        -95.923927,41.210915,0.000000
+        -95.923935,41.210899,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>mini bike MX track</name>
+    <description><![CDATA[<div dir="ltr">80cc or less! New in 2013.</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.922165,41.212322,0.000000
+            -95.922485,41.212006,0.000000
+            -95.921883,41.211845,0.000000
+            -95.921577,41.212166,0.000000
+            -95.922165,41.212322,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>big bike MX track</name>
+    <description><![CDATA[<div dir="ltr">In bad shape since the flood years. Repair monies not yet cleared.</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.921936,41.212540,0.000000
+            -95.921143,41.212341,0.000000
+            -95.919968,41.212772,0.000000
+            -95.919250,41.213638,0.000000
+            -95.921417,41.214146,0.000000
+            -95.921951,41.213470,0.000000
+            -95.921715,41.213093,0.000000
+            -95.921936,41.212540,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>

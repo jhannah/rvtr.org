@@ -31,12 +31,6 @@ http://rvtr.org
       </Icon>
     </IconStyle>
   </Style>
-  <Style id="style6">
-    <LineStyle>
-      <color>730000FF</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
   <Style id="style2">
     <LineStyle>
       <color>40000000</color>
@@ -48,7 +42,7 @@ http://rvtr.org
       <outline>1</outline>
     </PolyStyle>
   </Style>
-  <Style id="style5">
+  <Style id="style6">
     <LineStyle>
       <color>7399FFFF</color>
       <width>5</width>
@@ -76,8 +70,14 @@ http://rvtr.org
       <outline>1</outline>
     </PolyStyle>
   </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>736666FF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
   <Placemark>
-    <name>Park entrance</name>
+    <name>Park entrance posts</name>
     <description><![CDATA[]]></description>
     <styleUrl>#style4</styleUrl>
     <Point>
@@ -113,20 +113,6 @@ http://rvtr.org
     </Point>
   </Placemark>
   <Placemark>
-    <name>Northern fence</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style6</styleUrl>
-    <LineString>
-      <tessellate>1</tessellate>
-      <coordinates>
-        -95.903465,41.225739,0.000000
-        -95.912018,41.225758,0.000000
-        -95.912010,41.225758,0.000000
-        -95.911995,41.225758,0.000000
-      </coordinates>
-    </LineString>
-  </Placemark>
-  <Placemark>
     <name>Begginer sand</name>
     <description><![CDATA[<div dir="ltr">Big wide open dunes area to practice your sand skills.</div>]]></description>
     <styleUrl>#style2</styleUrl>
@@ -148,7 +134,7 @@ http://rvtr.org
   <Placemark>
     <name>Sandy</name>
     <description><![CDATA[<div dir="ltr">If you like sand, great! If you don't you might want to stay away from the river. :)</div>]]></description>
-    <styleUrl>#style5</styleUrl>
+    <styleUrl>#style6</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
       <coordinates>
@@ -201,6 +187,23 @@ http://rvtr.org
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Border fence</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -95.911903,41.225861,0.000000
+        -95.903595,41.225780,0.000000
+        -95.913307,41.212044,0.000000
+        -95.916031,41.209251,0.000000
+        -95.918152,41.209671,0.000000
+        -95.918388,41.209351,0.000000
+        -95.924568,41.211334,0.000000
+      </coordinates>
+    </LineString>
   </Placemark>
 </Document>
 </kml>
